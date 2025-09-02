@@ -1,9 +1,9 @@
-**🛡️ PolicyBot – AI-Powered Insurance Policy Query Chatbot
-**
+**🛡️ PolicyBot – AI-Powered Insurance Policy Query Chatbot**
+
 An AI-powered chatbot that helps customers query life insurance policy documents and FAQs using Retrieval-Augmented Generation (RAG).
 Instead of reading lengthy PDFs or FAQs, users can ask natural language questions and get precise answers with source references.
 
-🚀 Features
+**🚀 Features**
 
 ✅ Retrieval-Augmented Generation (RAG) for domain-specific Q&A
 
@@ -15,7 +15,7 @@ Instead of reading lengthy PDFs or FAQs, users can ask natural language question
 
 ✅ Simple Streamlit UI for user interaction
 
-🏗️ Tech Stack
+**🏗️ Tech Stack**
 
 Python 3.9+
 
