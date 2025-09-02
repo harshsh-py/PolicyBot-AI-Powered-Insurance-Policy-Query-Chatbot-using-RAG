@@ -28,3 +28,17 @@ OpenAI API / HuggingFace Transformers – LLM for response generation
 Streamlit – Chatbot frontend
 
 PyPDF2 / Unstructured – Document parsing
+
+**🔮 Future Improvements**
+
+Support multiple insurance domains (health, motor, life)
+
+Integrate with speech-to-text for voice-based queries
+
+Deploy on Hugging Face Spaces / AWS Lambda
+
+Fine-tune a domain-specific model
+
+**👤 Author**
+
+Harsh Sharma
