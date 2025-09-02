@@ -1,44 +1,59 @@
-**🛡️ PolicyBot – AI-Powered Insurance Policy Query Chatbot**
+📌 Project Title
 
-An AI-powered chatbot that helps customers query life insurance policy documents and FAQs using Retrieval-Augmented Generation (RAG).
-Instead of reading lengthy PDFs or FAQs, users can ask natural language questions and get precise answers with source references.
+PolicyBot – AI-Powered Insurance Policy Query Chatbot using RAG
 
-**🚀 Features**
+🎯 Problem Statement
 
-✅ Retrieval-Augmented Generation (RAG) for domain-specific Q&A
+Customers often struggle to navigate long policy documents and FAQs. Traditional chatbots are rule-based and fail on complex queries. The goal is to build an AI chatbot that can answer natural language questions by retrieving relevant sections from policy documents and FAQs.
 
-✅ Handles PDF policy documents and FAQs
+⚙️ Tech Stack
 
-✅ Provides source citations for transparency
+Python (backend scripting)
 
-✅ Built with LangChain + FAISS + OpenAI (or HuggingFace models)
+LangChain / LlamaIndex (RAG pipeline)
 
-✅ Simple Streamlit UI for user interaction
+LLM: OpenAI GPT-4 or open-source (LLaMA 2, Mistral)
 
-**🏗️ Tech Stack**
+Vector Database: Pinecone, Weaviate, or FAISS
 
-Python 3.9+
+Document Parsing: PyPDF2 / Unstructured / LangChain document loaders
 
-LangChain – Orchestration of RAG pipeline
+Frontend (optional): Streamlit or simple React app
 
-FAISS / Pinecone – Vector database for document retrieval
+Deployment: Streamlit Cloud / Docker / AWS
 
-OpenAI API / HuggingFace Transformers – LLM for response generation
+🛠️ Workflow
 
-Streamlit – Chatbot frontend
+Data Collection
 
-PyPDF2 / Unstructured – Document parsing
+Gather insurance FAQs, sample policy brochures, terms & conditions PDFs.
 
-**🔮 Future Improvements**
+Preprocessing
 
-Support multiple insurance domains (health, motor, life)
+Chunk documents into small sections (e.g., 500 tokens).
 
-Integrate with speech-to-text for voice-based queries
+Generate embeddings using OpenAI Embeddings or Sentence Transformers.
 
-Deploy on Hugging Face Spaces / AWS Lambda
+Store in vector database (FAISS for local, Pinecone if you want hosted).
 
-Fine-tune a domain-specific model
+RAG Pipeline
 
-**👤 Author**
+User query → Vector DB retrieves top-k relevant chunks → Chunks + query passed to LLM → Final response.
 
-Harsh Sharma
+Chatbot Interface
+
+Simple Streamlit UI: text input, chatbot response.
+
+Optionally add: “Show Sources” (so user can trust answers).
+
+🚀 Features to Highlight on Resume
+
+RAG pipeline for domain-specific Q&A.
+
+Integrated vector search with FAISS/Pinecone.
+
+Handles complex queries beyond keyword search.
+
+Built a UI for user interaction (Streamlit or web app).
+
+Deployable as a web-based demo.
