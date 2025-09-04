@@ -32,4 +32,11 @@ ________________________________________
 •	Handles complex queries beyond keyword search.
 •	Built a UI for user interaction (Streamlit or web app).
 •	Deployable as a web-based demo.
+________________________________________
+**Future Enhancements**
+•	Add chat history (LangChain ConversationBufferMemory).
+•	Use SentenceTransformers for local embeddings if avoiding OpenAI.
+•	Deploy via Streamlit Cloud, HuggingFace Spaces, or Docker.
+•	Add authentication for secure use in corporate settings
+
 
