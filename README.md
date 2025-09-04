@@ -1,5 +1,5 @@
 **📌 Project Title**
-
+________________________________________
 
 **PolicyBot – AI-Powered Insurance Policy Query Chatbot using RAG**
 ________________________________________
